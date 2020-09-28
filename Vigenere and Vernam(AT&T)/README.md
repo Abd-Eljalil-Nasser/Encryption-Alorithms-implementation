@@ -2,7 +2,7 @@
 In poly-alphabetic ciphers, the key is repeated so as to match the length of the plaintext. Each character of the plaintext is operated upon with a corresponding letter in the key so as to produce the corresponding letter in the ciphertext.
 
 Vigenere operates according to the following table
-[]()
+[1](1)
 While the table might seem complicated, it is in reality very simple. The top column is the characters in the plaintext while the leftmost column is the characters in the key. Given the character J for example in the plaintext and character K in the ciphertext, you'd go to the column of J and the row of K to get the value T.
 
 A closer look at the table would let you guess that Vigenere cipher is in reality very simple to Caesar cipher with the exception that instead of shifting by a constant amount all the letters, each character in the plaintext is shifted by the number that the corresponding letter in the key represents. For example to get the T, you can say J + K = ?, what is the value of K? If A = 0, B = 1, ... etc. K = 10. Shift J by 10 letters and you get T.
@@ -11,7 +11,7 @@ Another simple encryption technique is AT&T(Gilbert Vernam Cipher.) This techniq
 
 The following image shows the operation of AT&T Cipher.
 
-[]()
+[2](2)
 
 Given a plaintext and a key, can you output the result of the encryption in both cases of Vigenere and AT&T encryptions? In addition, we'd like to know whether this is considered a one-time pad encryption or not. Recall that in one-time pad encryption, the length of the key is the same as the length of the plaintext and this provides unconditional security.
 
