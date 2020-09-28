@@ -1,6 +1,6 @@
 # S-Boxes
 Given a 48-bit input in hex format, pass it by the 8 S-Boxes provided below(Each S-Box takes 6 bits in order) and provide the 32-bit output in hex format(Each S-Box provides 4 bits in order).
-![](1)
+![](https://github.com/Abd-Eljalil-Nasser/Encryption-Alorithms-implementation/blob/master/DES/S-Boxes/1.png)
 
 In text format:
 
