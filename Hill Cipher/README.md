@@ -1,4 +1,4 @@
-Hill Cipher
+# Hill Cipher
 
 Playfair Cipher tried to solve the frequency analysis vulnerability by taking each 2 letters together. However, frequency analysis on 2 letters is still possible. Hill cipher completely overcomes the frequency analysis vulnerability by allowing you to choose the number of letters to take together. For a description of Hill Cipher, you can skim through [this website](https://crypto.interactive-maths.com/hill-cipher.html).(Please use the website only for description. You can't count on its simulator since it's different than what's required here. We append X whenever we need extra characters.)
 
@@ -10,7 +10,7 @@ We'd like to implement Hill Cipher encryptor. You might find the following hints
 
 
 
-###Input
+### Input
 
 The input consists of 3 lines. The first line contains the length of the key L(0 < L ≤ 10^4) L is guaranteed to be a perfect square. The second line contains L numbers X(0 ≤ X ≤ 10^9) which represent the key. You can use these numbers to form the key matrix of Hill Cipher. The last line contains the plaintext to encrypt. It is a single string that consists of at most 100 characters. Each character is a capital English alphabetical character.
 
