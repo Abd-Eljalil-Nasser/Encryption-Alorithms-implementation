@@ -1,6 +1,6 @@
 Hill Cipher
 
-Playfair Cipher tried to solve the frequency analysis vulnerability by taking each 2 letters together. However, frequency analysis on 2 letters is still possible. Hill cipher completely overcomes the frequency analysis vulnerability by allowing you to choose the number of letters to take together. For a description of Hill Cipher, you can skim through this website.(Please use the website only for description. You can't count on its simulator since it's different than what's required here. We append X whenever we need extra characters.)
+Playfair Cipher tried to solve the frequency analysis vulnerability by taking each 2 letters together. However, frequency analysis on 2 letters is still possible. Hill cipher completely overcomes the frequency analysis vulnerability by allowing you to choose the number of letters to take together. For a description of Hill Cipher, you can skim through [https://crypto.interactive-maths.com/hill-cipher.html] (this website).(Please use the website only for description. You can't count on its simulator since it's different than what's required here. We append X whenever we need extra characters.)
 
 Note that the key is usually a bunch of English letters that you can map into numbers from A(0) to Z(25) and then use them to form the matrix. In this problem, you'll be given the key as a bunch of numbers(ranging from 0 to 109) instead.
 
