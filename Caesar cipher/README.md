@@ -17,7 +17,11 @@ Your output should be the cipher text produced by Ceaser cipher explained above.
 Example
 
 input
+
 3
+
 HACKINGZEBRAS
+
 output
+
 KDFNLQJCHEUDV
