@@ -15,8 +15,9 @@ Output
 Your output should be the cipher text produced by Ceaser cipher explained above.
 
 Example
-inputCopy
+
+input
 3
 HACKINGZEBRAS
-outputCopy
+output
 KDFNLQJCHEUDV
